@@ -1,14 +1,21 @@
 {
   "name": "calcapp",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.8",
+  "description": "training test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "VadimATchoupine",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }
